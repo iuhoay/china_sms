@@ -12,6 +12,7 @@
 * [畅友网络](http://www.chanyoo.cn/) 群发短信需要半小时左右的时间审核，星期五等繁忙时段会有几个小时的延时，不适合发送注册校验码等实时短信，单次最多发送500个号码
 * [亿美软通](http://www.emay.cn/)
 * [螺丝帽](http://luosimao.com/)
+* [建周](http://www.shjianzhou.com/)
 
 非常感谢 [推立方](http://tui3.com/) 为 [19屋活动平台](http://19wu.com) 提供短信赞助。
 
@@ -32,7 +33,7 @@
 ## 使用
 
 ```ruby
-# 支持 :tui3, :yunpian, :smsbao, :chanyoo, :emay, luosimao  短信接口
+# 支持 :tui3, :yunpian, :smsbao, :chanyoo, :emay, :luosimao, :jianzhou  短信接口
 ChinaSMS.use :tui3, username: 'YOUR_USERNAME', password: 'YOUR_PASSWORD'
 ChinaSMS.to '13912345678', '[Test]China SMS gem has been released.'
 
